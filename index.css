@@ -1,16 +1,17 @@
-* {
-    margin: 0;
+*{
+    margin:0;
     padding: 0;
-    box-sizing: border-box;
-
+    box-sizing:border-box ;
 }
 
 body{
+
     display: flex;
     flex-flow: column;
     font-size: 16px;
-    height: 100vh;
-    
+    height: 100vh; 
+
+
 }
 
 .header{
@@ -22,27 +23,28 @@ body{
 .container{
     outline: 1px solid chocolate;
     display: flex;
-    height: 100vh;
-    
-}
-.content {
-    outline: 1px solid yellow;
-    flex: 1 auto;
+    height: 77vh;   
+
 }
 
-.aside{
+.content{
+    outline: 1px solid yellow;
+    flex: 1 1 auto;
+}
+
+.aside {
     outline: 1px solid purple;
     flex: 0 0 25%;
 }
 
-.footer{
-   outline:1px solid cyan ;
-   height: 6rem;
-   margin-top: auto;
+footer{
+    outline: 1px solid cyan;
+    height: 6rem;
+    margin-top: auto;
 }
-.Menu{
- display: flex;
 
+.Menu {
+    display:flex;
 }
 
 .Menu-item{
@@ -52,10 +54,9 @@ body{
     line-height: 3rem;
     text-align: center;
     transition: flex .10s;
-
 }
 
 .Menu-item:hover{
-    flex:8;
+    flex: 8;
 
 }
